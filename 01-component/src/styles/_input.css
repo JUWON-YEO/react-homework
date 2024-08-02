@@ -9,45 +9,37 @@ body {
   transform: translate(-50%, -50%);
   inline-size: 60%;
 }
-
-.search-input {
-  position: relative;
-  margin-block-end: 20px;
+.SearchInput {
+  --primary-color: var(--primary-color, #5f0080);
+  --border-color: var(--gray-500, #909090);
+  --block-size: 50px;
+  --rouned: 4px;
 
   inline-size: 100%;
-  .SearchInput {
-    --primary-color: var(--primary-color, #5f0080);
-    --border-color: var(--gray-500, #909090);
-    --block-size: 50px;
-    --rouned: 4px;
+  block-size: var(--block-size);
+  border-radius: var(--rouned);
+  border: 1px solid var(--gray-500, #909090);
+  padding-inline-start: 16px;
+  background-color: white;
 
-    inline-size: 100%;
-    block-size: var(--block-size);
-    border-radius: var(--rouned);
-    border: 1px solid var(--gray-500, #909090);
-    padding-inline-start: 16px;
-    background-color: white;
-
-    &:focus {
-      outline: none;
-      border: 1px solid var(--primary-color, #5f0080);
-    }
+  &:focus {
+    outline: none;
+    border: 1px solid var(--primary-color, #5f0080);
   }
-
-  label {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translate(0, -50%);
-    z-index: 1;
-  }
-  .search-button {
-    border: 0;
-    background-color: transparent;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(0%, -50%);
-  }
+}
+label {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+.search-button {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
 }

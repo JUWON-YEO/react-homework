@@ -1,16 +1,31 @@
 {
-  "private": true,
   "type": "module",
-  "name": "react-component-with-props",
-  "description": "리액트 라이브러리를 사용해 사용자 인터페이스를 구축하는 방법을 학습합니다.",
-  "version": "0.1.0",
+  "private": true,
+  "name": "vite-custom-template-react",
+  "version": "0.0.1",
+  "description": "Vite 커스텀 템필릇을 사용해 React 프로젝트 오토 스캐폴딩",
   "scripts": {
-    "dev": "node server.mjs",
-    "compile:jsx": "tsc -p ./tsconfig.json",
-    "watch:jsx": "pnpm compile:jsx --watch"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"./src/**\" --report-unused-disable-directives --ignore-pattern .gitignore"
   },
   "devDependencies": {
-    "live-server": "1.2.2",
-    "typescript": "^5.5.4"
+    "@eslint/js": "9.8.0",
+    "@types/node": "22.0.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "eslint": "9.x",
+    "eslint-plugin-react": "7.35.0",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-refresh": "0.4.9",
+    "globals": "15.8.0",
+    "prop-types": "15.8.1",
+    "vite": "5.3.5"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }

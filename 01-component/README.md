@@ -1,3 +1,20 @@
+## 2주차 react 실습 과제
+
+### 컴포넌트 속성 검사 및 테스트
+
+<b>지난 1주차 과제 피드백 반영</b>
+
+1. 피그마 컴포넌트 [연결 링크](https://www.figma.com/design/6xQ7BSostdNFuX00ilWW2f/%EC%95%84%ED%86%A0%EB%AF%B9-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%84%A4%EA%B3%84?node-id=0-1&t=B0rlEvDEyG2JkgET-1)
+2. `fragement` 바로 알기
+3. `class` 가 아닌 `className`으로 사용
+4. `input`, `label`, `button` 의 잘못사용된 부분 수정
+
+---
+
+<details>
+<summary>1주차 react 실습 과제</summary>
+<div markdown="1">
+
 ## 1주차 react 실습 과제
 
 ---
@@ -92,3 +109,6 @@ if (container) {
 
 - 과제 마무리
   아직 익숙하지 않은 컴포넌트이지만 과제 실습을 통해 리액트에서 어떻게 컴포넌트가 만들어지는지 아주 살짝 알게된 것 같다. jsx 문법이나 tsx는 아직 잘 모르겠다.. 더 알아가보자!
+
+</div>
+</details>
