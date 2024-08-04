@@ -1,7 +1,7 @@
 //@ts-nocheck
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import SearchInputList from "./components/SearchLandering";
+import SearchList from "@/components/SearchList";
 
 //검색 컴포넌트를 렌더링 할 DOM 요소
 const container = document.getElementById("react-app");
@@ -10,7 +10,7 @@ const container = document.getElementById("react-app");
 if (container) {
   createRoot(container).render(
     <StrictMode>
-      <SearchInputList />
+      <SearchList />
     </StrictMode>
   );
 } else {
